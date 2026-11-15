@@ -1,0 +1,126 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.profile-card {
+  width: 320px;
+  padding: 25px;
+  background: #151720;
+  border: 1px solid #292d3a;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  transition: 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.profile-card:hover {
+  transform: translateY(-8px);
+  border-color: #8b7cff;
+  box-shadow: 0 15px 40px rgba(105, 85, 255, 0.15);
+}
+
+.card-top,
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #a9a6ff;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  background: #8b7cff;
+  border-radius: 50%;
+}
+
+.card-number {
+  font-size: 11px;
+  color: #777b8b;
+}
+
+.avatar-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 20px;
+}
+
+.avatar {
+  width: 115px;
+  height: 115px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #8b7cff;
+  padding: 4px;
+  background: #202330;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-info h2 {
+  font-size: 23px;
+  margin-bottom: 8px;
+  letter-spacing: 0.3px;
+}
+
+.role {
+  color: #999daf;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.card-divider {
+  height: 1px;
+  background: #303341;
+  margin: 25px 0;
+}
+
+.email-section {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.email-label {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: #777b8b;
+}
+
+.email-section a {
+  color: #b5adff;
+  font-size: 13px;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.email-section a:hover {
+  color: white;
+}
+
+.card-footer {
+  margin-top: 28px;
+  padding-top: 15px;
+  border-top: 1px solid #303341;
+  color: #777b8b;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+}
+
+.card-footer span:last-child {
+  color: #a99cff;
+  font-size: 18px;
+}

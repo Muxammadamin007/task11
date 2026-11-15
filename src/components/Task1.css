@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Profilecard_container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  background-color: #8b7cff;
+}
