@@ -1,3 +1,4 @@
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Container from './components/Container'
@@ -6,19 +7,15 @@ import Task2 from './components/Task2'
 import Task3 from './components/Task3'
 
 function App() {
-
-
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/task11" element={<Container />} />
-          <Route path="/task1" element={<Task1 />} />
-          <Route path="/task2" element={<Task2 />} />
-          <Route path="/task3" element={<Task3 />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter basename="/task11">
+      <Routes>
+        <Route path="/" element={<Container />} />
+        <Route path="/task1" element={<Task1 />} />
+        <Route path="/task2" element={<Task2 />} />
+        <Route path="/task3" element={<Task3 />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
