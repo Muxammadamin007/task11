@@ -17,6 +17,8 @@ function Counter() {
 
     let newColor = color;
 
+
+    
     while (newColor === color) {
       newColor = colors[Math.floor(Math.random() * colors.length)];
     }
