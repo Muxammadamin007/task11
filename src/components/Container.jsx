@@ -39,6 +39,24 @@ function Container() {
           <p>Git repository link: https://github.com/Muxammadamin007/<br></br>webReactUsers</p>
           <span className="task-arrow">↗</span>
         </a>
+        <Link to="/Task5" className="task-card">
+          <span className="task-number">05</span>
+          <h2>Task 5</h2>
+          <p>Task 5 Description</p>
+          <span className="task-arrow">↗</span>
+        </Link>
+        <Link to="/Task6" className="task-card">
+          <span className="task-number">06</span>
+          <h2>Task 6</h2>
+          <p>Task 6 Description</p>
+          <span className="task-arrow">↗</span>
+        </Link>
+        <Link to="/Task7" className="task-card">
+          <span className="task-number">07</span>
+          <h2>Task 7</h2>
+          <p>Task 7 Description</p>
+          <span className="task-arrow">↗</span>
+        </Link>
       </div>
     </div>
   )
