@@ -1,5 +1,3 @@
-
-import React from 'react'
 import { Link } from 'react-router-dom'
 import './Container.css'
 
@@ -13,48 +11,57 @@ function Container() {
       </div>
 
       <div className="cards-container">
-        <Link to="/Task1" className="task-card">
+        <Link to="/task1" className="task-card">
           <span className="task-number">01</span>
           <h2>Task 1</h2>
-          <p>Notification Component</p>
+          <p>Profile cards</p>
           <span className="task-arrow">↗</span>
         </Link>
 
-        <Link to="/Task2" className="task-card">
+        <Link to="/task2" className="task-card">
           <span className="task-number">02</span>
           <h2>Task 2</h2>
-          <p>Reusable Card Component</p>
+          <p>Notification components</p>
           <span className="task-arrow">↗</span>
         </Link>
 
-        <Link to="/Task3" className="task-card">
+        <Link to="/task3" className="task-card">
           <span className="task-number">03</span>
           <h2>Task 3</h2>
-          <p>Task 3 Description</p>
+          <p>Reusable card components</p>
           <span className="task-arrow">↗</span>
         </Link>
-        <a href="https://muxammadamin007.github.io/webReactUsers/" className="task-card">
+
+        <a
+          href="https://muxammadamin007.github.io/webReactUsers/"
+          className="task-card"
+          target="_blank"
+          rel="noreferrer"
+        >
           <span className="task-number">04</span>
           <h2>Task 4</h2>
-          <p>Git repository link: https://github.com/Muxammadamin007/<br></br>webReactUsers</p>
+          <p>Open the Task 4 project</p>
           <span className="task-arrow">↗</span>
         </a>
-        <Link to="/Task5" className="task-card">
+
+        <Link to="/task5" className="task-card">
           <span className="task-number">05</span>
           <h2>Task 5</h2>
-          <p>Task 5 Description</p>
+          <p>Course catalog</p>
           <span className="task-arrow">↗</span>
         </Link>
-        <Link to="/Task6" className="task-card">
+
+        <Link to="/task6" className="task-card">
           <span className="task-number">06</span>
           <h2>Task 6</h2>
-          <p>Task 6 Description</p>
+          <p>Filtered course list</p>
           <span className="task-arrow">↗</span>
         </Link>
-        <Link to="/Task7" className="task-card">
+
+        <Link to="/task7" className="task-card">
           <span className="task-number">07</span>
           <h2>Task 7</h2>
-          <p>Task 7 Description</p>
+          <p>Interactive counter</p>
           <span className="task-arrow">↗</span>
         </Link>
       </div>

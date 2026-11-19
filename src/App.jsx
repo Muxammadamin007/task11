@@ -1,4 +1,3 @@
-
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Container from './components/Container'
@@ -17,7 +16,7 @@ function App() {
         <Route path="/task1" element={<Task1 />} />
         <Route path="/task2" element={<Task2 />} />
         <Route path="/task3" element={<Task3 />} />
-        <Route path="/task4" element={<Chart />} />
+        <Route path="/task5" element={<Chart />} />
         <Route path="/task6" element={<Catalog />} />
         <Route path="/task7" element={<Counter />} />
       </Routes>
